@@ -10,14 +10,14 @@ module.exports = {
     path: __dirname + '/dist',
     library: 'webpackGhPages',
   },
-  module: {
-    rules: [
-      {
-        test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
-      },
-    ],
-  },
+  // module: {
+  //   rules: [
+  //     {
+  //       test: /\.css$/i,
+  //       use: ["style-loader", "css-loader"],
+  //     },
+  //   ],
+  // },
   devServer: {
     static: {
       directory: path.join(__dirname, 'dist'),
