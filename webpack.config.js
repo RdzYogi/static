@@ -5,7 +5,7 @@ module.exports = {
   mode : 'development',
   output: {
     filename: 'main.js',
-    publicPath: '/',
+    publicPath: '/static/',
     path: __dirname + '/dist',
     // path: path.resolve(__dirname, 'dist'),
   },
