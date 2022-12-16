@@ -6,7 +6,7 @@
 - cd YOUR_PROJECT_NAME
 - rm -rf .git
 - git init
-- gh repo create --public --source=.
+- gh repo create --public --source=. # Here you can change public to private
 - In the package.json file change 
 line 2 to `"name": "your_repository_name",`
 line 7 to `"url": "git+https://github.com/GITHUB_USERNAME/REPOSITORY_NAME.git",`
