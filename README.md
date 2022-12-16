@@ -28,7 +28,7 @@ to generate a branch called gh-pages.
 # Using it
 - Add your own html by editing the `index.html` in the `dist/` folder
 - For Css and JavaScript you can edit the files in the `src/` folder 
-- In development you can use `webpack` to build, then `webpack serve` to start a local server at http://localhost:9000/
+- In development you can use `npn run serve` to start a local server at http://localhost:9000/
 - Once you are done with your changes run `npm run deploy` to update the gh-pages branch <strong>(can take up to 10 minutes!)</strong>
 ### Updating gh-pages will do so from your <ins>local repository</ins> and not Github. 
 ### Remember to push your changes to Github!!
