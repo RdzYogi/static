@@ -8,8 +8,8 @@
 - git init
 - gh repo create --public --source=.
 - In the package.json file change 
- line 7 to `"url": "git+YOUR_REPOSITORY.git",`
- and line 2 to `"name": "your_repository_name",`
+and line 2 to `"name": "your_repository_name",`
+line 7 to `"url": "git+YOUR_REPOSITORY.git",`
 - git add .
 - git commit -m "Your commit here"
 - git push origin master
@@ -28,7 +28,7 @@ to generate a branch called gh-pages.
 # Using it
 - Add your own html by editing the `index.html` in the `dist/` folder
 - For Css and JavaScript you can edit the files in the `src/` folder 
-- In development you can use `webpack serve` to start a local server at http://localhost:9000/
+- In development you can use `webpack` to build, then `webpack serve` to start a local server at http://localhost:9000/
 - Once you are done with your changes run `npm run deploy` to update the gh-pages branch
 ### Updating gh-pages will do so from your <ins>local repository</ins> and not Github. 
 ### Remember to push your changes to Github!!
