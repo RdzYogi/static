@@ -22,7 +22,7 @@ to generate a branch called gh-pages.
 ### !!Do not modify the gh-pages branch. It is generated automaticaly!!
 #
 - Switch to gh-pages branch on Github and on the right you will see Enviroments (it usually takes a few minutes to update)
-- Click on the github-pages
+- Click on the github-pages under Enviroments
 - On the new page clicking view deployment will take you to the url of your page
 
 # Using it
