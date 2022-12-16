@@ -8,8 +8,9 @@
 - rm -rf .git
 - git init
 - gh repo create --public --source=.
-- In the package.json file change line 7 to 
-` "url": "git+YOUR_REPOSITORY.git"`
+- In the package.json file change 
+ line 7 to `"url": "git+YOUR_REPOSITORY.git",`
+ and line 2 to `"name": "your_repository_name",`
 - git add .
 - git commit -m "Your commit here"
 - git push origin master
