@@ -2,17 +2,17 @@
 ### This boilerplate uses webpack to pack your Css and Javascript into one file, and deploy on github pages as a static page. 
 
 # Getting started:
-- gh repo clone https://github.com/RdzYogi/static.git YOUR_PROJECT_NAME
-- cd YOUR_PROJECT_NAME
-- rm -rf .git
-- git init
-- gh repo create --public --source=. # Here you can change public to private
+- `gh repo clone https://github.com/RdzYogi/static.git YOUR_PROJECT_NAME`
+- `cd YOUR_PROJECT_NAME`
+- `rm -rf .git`
+- `git init`
+- `gh repo create --public --source=.` # Here you can change public to private
 - In the package.json file change 
 line 2 to `"name": "your_repository_name",`
 line 7 to `"url": "git+https://github.com/GITHUB_USERNAME/REPOSITORY_NAME.git",`
-- git add .
-- git commit -m "Your commit here"
-- git push origin master
+- `git add .`
+- `git commit -m "Your commit here"`
+- `git push origin master`
 
 
 #
