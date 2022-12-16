@@ -1,4 +1,3 @@
-# !!NOT WORKING!!
 # About
 ### This boilerplate uses webpack to pack your code into simple files, and then deploy them on github pages as a static page. 
 
@@ -31,3 +30,5 @@ to generate a branch called gh-pages.
 - Once you are done with your changes run `npm run deploy` to update the gh-pages branch
 ### Updating gh-pages will do so from your <ins>local repository</ins> and not Github. 
 #### Remember to push your changes to Github!!
+# Known issues
+- On some machines `gh-pages` command cannot find the correct location of git and will throw a error
