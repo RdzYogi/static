@@ -10,7 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "preserve": "npm run build",
+    "serve": "webpack serve --open"
   },
   "dependencies": {
     "lodash": "^4.17.21",
