@@ -1,5 +1,5 @@
 # About
-### This boilerplate uses webpack to pack your Css and Javascript into one file, and deploy your index.html on github pages as a static page. 
+### This boilerplate uses webpack to pack your Css and Javascript into one file, and deploy on github pages as a static page. 
 
 # Getting started:
 - gh repo clone https://github.com/RdzYogi/static.git YOUR_PROJECT_NAME
