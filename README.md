@@ -1,5 +1,5 @@
 # About
-### This boilerplate uses webpack to pack your code into simple files, and then deploy them on github pages as a static page. 
+### This boilerplate uses webpack to pack your Css and Javascript into one file, and deploy your index.html on github pages as a static page. 
 
 # Getting started:
 - gh repo clone https://github.com/RdzYogi/static.git YOUR_PROJECT_NAME
@@ -26,9 +26,11 @@ to generate a branch called gh-pages.
 - On the new page clicking view deployment will take you to the url of your page
 
 # Using it
+- Add your own html by editing the `index.html` in the `dist/` folder
+- For Css and JavaScript you can edit the files in the `src/` folder 
 - In development you can use `webpack serve` to start a local server at http://localhost:9000/
 - Once you are done with your changes run `npm run deploy` to update the gh-pages branch
 ### Updating gh-pages will do so from your <ins>local repository</ins> and not Github. 
-#### Remember to push your changes to Github!!
+### Remember to push your changes to Github!!
 # Known issues
 - On some machines `gh-pages` command cannot find the correct location of git and will throw a error
